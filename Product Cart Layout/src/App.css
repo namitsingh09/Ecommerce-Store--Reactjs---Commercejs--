@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+.container {
+gap: 0.4%;
+flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+  background-color: rgb(6, 6, 6);
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  
+  
+}
+#sdd {
+  margin-top: 4px;
+  border-radius: 19px;
+  width: 80px;
+  height: 50px;
+  margin-left: 4px;
+}
+
+#sz {
+  font-size: 4px;
+  font-weight: 400;
+  font-style: oblique;
+
+}
+
+#xcc {
+  font-size: 7px;
+  margin-left: 4px;
+}
+
+#buttonx {
+  margin-left: 4px;
+  border-radius: 4px;
+  background-color: black;
+  width: 60px;
+  
+  color: white;
+  font-size: 50%;
+}
+
+#rot {
+  text-align: center;
+}
+
+.card1 {
+ margin-top: 15px;
+  
+  background-color: yellow;
+  width: 90px;
+  height: 130px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
