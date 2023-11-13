@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Main from './App';
 import reportWebVitals from './reportWebVitals';
+import Trenditem from './componenets/Trenditem';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <div>
+<li id='sxx'>
+<h1 id='sxx1'>Trending items</h1> <button id='sdf'>View all</button>
+
+</li>
+< Trenditem />
+
+
+    </div>
   </React.StrictMode>
 );
 
